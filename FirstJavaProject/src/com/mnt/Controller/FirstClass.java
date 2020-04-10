@@ -1,14 +1,13 @@
 package com.mnt.Controller;
 
+import java.util.Calendar;
 import java.util.Date;
-
-import javax.xml.crypto.Data;
 
 public class FirstClass 
 {
-    public void getOutput()
+	int c=10;
+    public int getOutput()
     {
-    	Date date=new Date();
-    	System.out.println(date.getDay());
+    	 return c;
     }
 }
